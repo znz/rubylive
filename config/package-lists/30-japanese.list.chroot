@@ -1,15 +1,17 @@
-# japanese packages
 anthy
 jfbterm
+locales-all
 lv
 manpages-ja
 nkf
 ttf-mona
-ttf-sazanami-gothic
-ttf-sazanami-mincho
-ttf-vlgothic
+ttf-monapo
+fonts-ipafont-gothic
+fonts-ipafont-mincho
+fonts-vlgothic
 uim-anthy
 uim-applet-gnome
 uim-gtk2.0
+uim-gtk3
 uim-xim
 unifont

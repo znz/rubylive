@@ -1,0 +1,5 @@
+build-essential
+screen
+sqlite3
+libsqlite3-dev
+spidermonkey-bin

@@ -10,7 +10,7 @@ task :config => [:clean] do
 end
 
 desc "build RubyLive"
-task :build do
+task :build => "resources:check" do
   sh 'sudo lb build'
 end
 
@@ -23,6 +23,39 @@ desc "distclean generated files"
 task :distclean => [:clean] do
   sh 'sudo lb clean --purge'
   sh 'sudo rm -f *.iso *.img *.list *.packages *.buildlog *.md5sum'
+end
+
+namespace :resources do
+  require "yaml"
+
+  desc "check resources from external"
+  task :check => :fetch do
+    require "digest/sha2"
+    YAML.load_file("resources.yml").each do |resource|
+      path = resource["path"]
+      unless File.file?(path) and
+          File.size(path) == resource["size"] and
+          Digest::SHA256.file(path).hexdigest == resource["sha256sum"]
+        warn "resource mismatched - check it out"
+        warn resource.to_yaml
+        abort
+      end
+    end
+  end
+
+  desc "fetch resources from external"
+  task :fetch do
+    require "open-uri"
+    YAML.load_file("resources.yml").each do |resource|
+      path = resource["path"]
+      next if File.file?(path)
+      mkdir_p File.dirname(path)
+      File.open(path, "wb") do |file|
+        puts "fetching #{resource["url"]}"
+        file.write(open(resource["url"], &:read))
+      end
+    end
+  end
 end
 
 # old tasks

@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+# set Ruby 1.9.2 as default ruby
+update-alternatives --set ruby /usr/bin/ruby1.9.1
+
+# install rails and related gems
+cat <<'__GEMS__' | xargs gem install --no-ri --no-rdoc
+rails
+sqlite3
+sass-rails
+coffee-rails
+uglifier
+jquery-rails
+unicorn
+capistrano
+ruby-debug19
+turn
+pry
+pry-doc
+__GEMS__

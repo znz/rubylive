@@ -1,0 +1,13 @@
+---
+- url: http://doc.ruby-lang.org/archives/201107/ruby-refm-1.8.7-20110729.chm
+  size: 7693935
+  sha256sum: 12b8c7b827c5a206d8b4c5c8e7369fe275c615f874dd07c04f7e6b445af94df9
+  path: config/includes.chroot/home/user/Desktop/ruby-refm-1.8.7-20110729.chm
+- url: http://doc.ruby-lang.org/archives/201107/ruby-refm-1.9.2-20110729.chm
+  size: 8290329
+  sha256sum: 6019f1a278047ff0efe84e19f3b2bd03df1a6d934b2c4fd36260a07aa63465bf
+  path: config/includes.chroot/home/user/Desktop/ruby-refm-1.9.2-20110729.chm
+- url: http://rubykaigi.org/2011/goodies/wallpapers01/1920x1200.jpg
+  size: 1264429
+  sha256sum: d21c30b378b280b249d93e7ddb56a502bd0499c6d0d34ccbd6b26851724b4cdf
+  path: config/includes.chroot/home/user/2011/goodies/wallpapers01/1920x1200.jpg

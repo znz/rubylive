@@ -1,0 +1,11 @@
+#!/bin/bash
+set -B -e
+
+APPLICATIONS="/usr/share/applications"
+DESKTOP="/home/user/Desktop"
+cp ${APPLICATIONS}/{emacs23,gedit,gnome-terminal,iceweasel,gvim}.desktop ${DESKTOP}
+
+WALLPAPER="/home/user/2011/goodies/wallpapers01/1920x1200.jpg"
+update-alternatives --install /usr/share/images/desktop-base/desktop-background \
+	desktop-background "${WALLPAPER}" 200
+update-alternatives --set desktop-background "${WALLPAPER}"
