@@ -4,6 +4,7 @@ lb config noauto \
 	--architectures "i386" \
 	--linux-flavours "686-pae" \
 	--bootloader "grub2" \
+	--templates "templates" \
 	--bootappend-live "quiet locales=ja_JP.UTF-8 timezone=Asia/Tokyo utc=yes keyboard-layouts=jp keyboard-model=jp106 keyboard-variant=106" \
 	--binary-images "iso" \
 	--iso-volume "RubyLive" \
