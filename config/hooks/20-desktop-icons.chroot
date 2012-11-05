@@ -1,5 +1,5 @@
-#!/bin/sh
-set -e
+#!/bin/bash
+set -B -e
 APPLICATIONS="/usr/share/applications"
 DESKTOP="/etc/skel/Desktop"
 mkdir -p ${DESKTOP}
