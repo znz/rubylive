@@ -1,0 +1,7 @@
+#!/bin/bash
+set -B -e
+APPLICATIONS="/usr/share/applications"
+DESKTOP="/etc/skel/Desktop"
+mkdir -p ${DESKTOP}
+cp ${APPLICATIONS}/{emacs23,gedit,gnome-terminal,iceweasel,gvim}.desktop ${DESKTOP}
+chmod +x ${DESKTOP}/*.desktop

@@ -3,3 +3,6 @@ screen
 sqlite3
 libsqlite3-dev
 spidermonkey-bin
+ca-certificates
+libxml2-dev
+libxslt1-dev

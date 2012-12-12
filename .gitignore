@@ -6,7 +6,7 @@
 *.packages
 *~
 .*~
-.stage/
+.build/
 binary/
 cache/
 chroot/
@@ -16,3 +16,5 @@ config/chroot
 config/common
 config/source
 chroot.packages.*
+binary.*
+ruby_live-binary-*

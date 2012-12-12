@@ -15,13 +15,12 @@ RubyLive という Debian GNU/Linux ベースの LiveCD を作るために使用
 == RubyLive でのカスタマイズポイント
 
 * 壁紙の変更
-  * RubyKaigi2011 の壁紙を使用している
-  * http://rubykaigi.org/2011/ja/for_attendees#goodies
+  * SapporoRubyKaigi2012 の壁紙を使用している
+  * http://sapporo.rubykaigi.org/2012/en/goodies.html#wallpapers
 * デスクトップにワークショップで使用するアイコンが置いてある
 * デスクトップにるりまの成果物の最新版が置いてある
-  * http://doc.ruby-lang.org/archives/201107/ (chm 版)
-  * http://doc.ruby-lang.org/ja/1.8.7/doc/index.html
-  * http://doc.ruby-lang.org/ja/1.9.2/doc/index.html
+  * http://doc.ruby-lang.org/archives/201208/ (chm 版)
+  * http://doc.ruby-lang.org/ja/1.9.3/doc/index.html
 
 == カスタマイズしたい
 

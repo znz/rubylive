@@ -4,9 +4,10 @@ lb config noauto \
 	--architectures "i386" \
 	--linux-flavours "686-pae" \
 	--bootloader "grub2" \
-	--bootappend-live "quiet locales=ja_JP.UTF-8 timezone=Asia/Tokyo utc=yes keyboard-layouts=jp keyboard-model=jp106 keyboard-variant=106" \
-	--package-lists "gnome-core" \
+	--templates "templates" \
+	--bootappend-live "quiet locales=ja_JP.UTF-8 timezone=Asia/Tokyo utc=no keyboard-layouts=jp keyboard-model=jp106 keyboard-variant=106" \
 	--binary-images "iso" \
 	--iso-volume "RubyLive" \
 	--parent-mirror-bootstrap "http://cdn.debian.or.jp/debian/" \
+	--parent-mirror-binary "http://cdn.debian.or.jp/debian/" \
 	"${@}"
