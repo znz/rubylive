@@ -1,5 +1,5 @@
 ---
-- url: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-20120829.chm
+- url: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-20120829.chm
   size: 8337029
   sha256sum: 508b949ac9c6e1ea6f35a29c59c1756838ef8860c307255c089e5982f6f9fc55
   path: config/includes.chroot/etc/skel/Desktop/ruby-refm-1.9.3-20120829.chm
