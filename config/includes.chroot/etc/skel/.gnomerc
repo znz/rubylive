@@ -1,0 +1,4 @@
+gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/images/desktop-base/RubyKaigi2014-commonLogo.svg'
+gsettings set org.gnome.desktop.background picture-options centered
+( cd $HOME/Desktop && unzip /usr/local/src/rubyrefm-remix-2.1.0.zip )
+gsettings set org.gnome.desktop.background show-desktop-icons true
