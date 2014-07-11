@@ -1,9 +1,12 @@
 ---
-- url: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-20120829.chm
-  size: 8337029
-  sha256sum: 508b949ac9c6e1ea6f35a29c59c1756838ef8860c307255c089e5982f6f9fc55
-  path: config/includes.chroot/etc/skel/Desktop/ruby-refm-1.9.3-20120829.chm
-- url: http://sapporo.rubykaigi.org/2012/images/wallpaper1920x1200.jpg
-  size: 1606702
-  sha256sum: e2969a3c55a1c681c95e9a7d7564cfe91a634d2f653cfb49d4f7d52d4ee87a46
-  path: config/includes.chroot/usr/share/images/desktop-base/sprk2012-wallpaper_1920x1200.jpg
+# http://ruby.morphball.net/refm-remix.html
+- url: "http://sourceforge.jp/frs/redir.php?m=iij&f=%2Fruby-refm-remix%2F60775%2Frubyrefm-remix-2.1.0.zip"
+  size: 8734708
+  sha256sum: e68de953eb04384b64655c00c14720abe6c8d0530674855c7c441762feef6394
+  path: config/includes.chroot/usr/local/src/rubyrefm-remix-2.1.0.zip
+
+# This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+- url: http://rubykaigi.org/2014/images/commonLogo.svg
+  size: 64139
+  sha256sum: 46790a45b5ee7fd3205aed56a46e0c01c1eeef8e790cbd21822cc3cd871a13cc
+  path: config/includes.chroot/usr/share/images/desktop-base/RubyKaigi2014-commonLogo.svg
