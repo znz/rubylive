@@ -2,5 +2,9 @@
 set -ex
 
 rm -f /var/lib/apt/lists/*.*
+
+if debconf-show localepurge 2>&1 | grep -q NEEDSCONFIGFIRST; then
+    echo localepurge localepurge/nopurge string "ja, ja_JP.UTF-8" | debconf-set-selections
+fi
 DEBIAN_FRONTEND=noninteractive dpkg-reconfigure localepurge
 localepurge
