@@ -10,27 +10,21 @@ rm -rf .ruby-build
 export CONFIGURE_OPTS="--disable-install-doc"
 ruby-build --verbose 2.1.2 /usr/local
 
+cat >/usr/local/etc/gemrc <<GEMRC
+install: --no-rdoc --no-ri
+update: --no-rdoc --no-ri
+GEMRC
+
 # Install gems
-gem install bundler --no-rdoc --no-ri
+GEMS="bundler"
+GEMS="$GEMS rails"
+GEMS="$GEMS unicorn"
+GEMS="$GEMS pry pry-doc"
+GEMS="$GEMS nokogiri"
+GEMS="$GEMS mechanize"
+GEMS="$GEMS byebug"
+for GEM in $GEMS ; do
+    gem install $GEM --no-rdoc --no-ri
+done
 
-exit
-
-# install rails and related gems
-cat <<'__GEMS__' | xargs gem install --no-ri --no-rdoc
-rails
-sqlite3
-sass-rails
-coffee-rails
-therubyracer
-uglifier
-jquery-rails
-bcrypt-ruby
-jbuilder
-unicorn
-capistrano
-debugger
-pry
-pry-doc
-nokogiri
-mechanize
-__GEMS__
+rails new /tmp/dummy
