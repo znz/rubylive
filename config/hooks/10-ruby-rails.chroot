@@ -8,7 +8,7 @@ rm -rf .ruby-build
 
 # Install ruby 2.1.2
 export CONFIGURE_OPTS="--disable-install-doc"
-ruby-build 2.1.2 /usr/local
+ruby-build --verbose 2.1.2 /usr/local
 
 # Install gems
 gem install bundler --no-rdoc --no-ri
