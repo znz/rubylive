@@ -2,3 +2,5 @@
 set -ex
 
 rm -f /var/lib/apt/lists/*.*
+DEBIAN_FRONTEND=noninteractive dpkg-reconfigure localepurge
+localepurge
