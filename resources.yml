@@ -1,8 +1,8 @@
 ---
 # http://ruby.morphball.net/refm-remix.html
-- url: "http://sourceforge.jp/frs/redir.php?m=iij&f=%2Fruby-refm-remix%2F60775%2Frubyrefm-remix-2.1.0.zip"
-  size: 8734708
-  sha256sum: e68de953eb04384b64655c00c14720abe6c8d0530674855c7c441762feef6394
+- url: "http://sourceforge.jp/frs/redir.php?m=iij&f=%2Fruby-refm-remix%2F61575%2Frubyrefm-remix-2.1.0.zip"
+  size: 8739608
+  sha256sum: 8427cc842e054d363014a25b9087431270aaefbe2542590707f65ceeb7d7cef5
   path: config/includes.chroot/usr/local/src/rubyrefm-remix-2.1.0.zip
 
 # This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
