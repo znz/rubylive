@@ -10,4 +10,5 @@ lb config noauto \
 	--iso-volume "RubyLive" \
 	--parent-mirror-bootstrap "http://cdn.debian.or.jp/debian/" \
 	--parent-mirror-binary "http://cdn.debian.or.jp/debian/" \
+	--backports true \
 	"${@}"
