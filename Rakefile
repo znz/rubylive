@@ -7,6 +7,9 @@ task :all => [:config, :build]
 desc "config RubyLive"
 task :config => [:clean] do
   sh 'lb config'
+  if ENV['APT_HTTP_PROXY']
+    sh "lb config --apt-http-proxy #{ENV['APT_HTTP_PROXY']}"
+  end
 end
 
 desc "build RubyLive"
