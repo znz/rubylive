@@ -18,3 +18,4 @@ config/source
 chroot.packages.*
 binary.*
 ruby_live-binary-*
+config/includes.chroot/usr
