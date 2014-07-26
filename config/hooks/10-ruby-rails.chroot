@@ -23,11 +23,11 @@ RAILSRC
 set +x
 GEMS="bundler"
 GEMS="$GEMS rails"
-GEMS="$GEMS unicorn"
+#GEMS="$GEMS unicorn"
 GEMS="$GEMS pry pry-doc"
-GEMS="$GEMS nokogiri"
-GEMS="$GEMS mechanize"
-GEMS="$GEMS byebug"
+#GEMS="$GEMS nokogiri"
+#GEMS="$GEMS mechanize"
+#GEMS="$GEMS byebug"
 set -x
 for GEM in $GEMS ; do
     gem install $GEM --no-rdoc --no-ri
