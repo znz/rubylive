@@ -1,14 +1,11 @@
 #!/bin/sh
 set -ex
 
-# Install ruby-build
+# Install ruby 2.1.2 using ruby-build
 git clone --depth 1 https://github.com/sstephenson/ruby-build .ruby-build
-.ruby-build/install.sh
-rm -rf .ruby-build
-
-# Install ruby 2.1.2
 export CONFIGURE_OPTS="--disable-install-doc"
-ruby-build --verbose 2.1.2 /usr/local
+.ruby-build/bin/ruby-build --verbose 2.1.2 /usr/local
+rm -rf .ruby-build
 
 cat >/usr/local/etc/gemrc <<GEMRC
 install: --no-rdoc --no-ri
