@@ -10,3 +10,9 @@
   size: 64139
   sha256sum: 46790a45b5ee7fd3205aed56a46e0c01c1eeef8e790cbd21822cc3cd871a13cc
   path: config/includes.chroot/usr/share/images/desktop-base/RubyKaigi2014-commonLogo.svg
+
+# chmfox
+- url: https://addons.mozilla.org/firefox/downloads/latest/312362/addon-312362-latest.xpi
+  size: 154523
+  sha256sum: 9547056a7be980b240bb1c4923d0550adf38a0855eaa36112ba7812c7168a57a
+  path: config/includes.chroot/usr/local/src/addon-312362-latest.xpi
