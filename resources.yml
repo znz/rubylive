@@ -7,10 +7,10 @@
   path: config/includes.chroot/usr/local/src/rubyrefm-remix-2.1.0.zip
 
 # This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
-- url: http://rubykaigi.org/2014/images/commonLogo.svg
-  size: 64139
-  sha256sum: 46790a45b5ee7fd3205aed56a46e0c01c1eeef8e790cbd21822cc3cd871a13cc
-  path: config/includes.chroot/usr/share/images/desktop-base/RubyKaigi2014-commonLogo.svg
+- url: http://rubykaigi.org/2014/images/rubykaigi2014-mark.svg
+  size: 40577
+  sha256sum: 937dd0adc13e1bfdfada604d93559de5438c9659ba99f335d98986d3893f317e
+  path: config/includes.chroot/usr/share/images/desktop-base/rubykaigi2014-mark.svg
 
 # chmfox
 - url: https://addons.mozilla.org/firefox/downloads/latest/312362/addon-312362-latest.xpi
