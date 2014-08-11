@@ -4,3 +4,6 @@
 
 
 chm ファイルは Rubyリファレンスマニュアル chm版リミックス http://ruby.morphball.net/refm-remix.html からダウンロードしたファイルを /usr/local/src に同梱して、ログイン時にデスクトップに展開しています。
+
+また、chm ファイルの表示用に ChmFox を同梱しています。
+詳細やソースコードは https://addons.mozilla.org/ja/firefox/addon/chmfox/ や https://bitbucket.org/zhuoqiang/chmfox を参照してください。
