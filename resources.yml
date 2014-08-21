@@ -1,19 +1,13 @@
 ---
 # http://ruby.morphball.net/refm-remix.html
-#- url: "http://sourceforge.jp/frs/redir.php?m=iij&f=%2Fruby-refm-remix%2F61575%2Frubyrefm-remix-2.1.0.zip"
-- url: "http://ruby.morphball.net/temp/rubyrefm-remix-2.1.0.zip"
-  size: 10234140
-  sha256sum: ea1b8ff13723135fdca64967773dbb310f0dfb630f4fabc6df2b7a16630f4e8f
-  path: config/includes.chroot/usr/local/src/rubyrefm-remix-2.1.0.zip
+# node-webkit + refm
+- url: http://ruby.morphball.net/temp/refmportable_20140821.tar.gz
+  size: 36924698
+  sha256sum: 22659ee6a7a657779e5658ec83a91407c1888eb88ea1df1f65f9ecbcbf602842
+  path: config/includes.chroot/usr/local/src/refmportable_20140821.tar.gz
 
 # This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
 - url: http://rubykaigi.org/2014/images/rubykaigi2014-mark.svg
   size: 40577
   sha256sum: 937dd0adc13e1bfdfada604d93559de5438c9659ba99f335d98986d3893f317e
   path: config/includes.chroot/usr/share/images/desktop-base/rubykaigi2014-mark.svg
-
-# chmfox
-- url: https://addons.mozilla.org/firefox/downloads/latest/312362/addon-312362-latest.xpi
-  size: 154523
-  sha256sum: 9547056a7be980b240bb1c4923d0550adf38a0855eaa36112ba7812c7168a57a
-  path: config/includes.chroot/usr/local/src/addon-312362-latest.xpi

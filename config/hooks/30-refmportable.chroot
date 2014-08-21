@@ -1,0 +1,24 @@
+#!/bin/bash
+VERSION=20140821
+set -e
+cd /opt
+tar xzvf /usr/local/src/refmportable_$VERSION.tar.gz
+rm /usr/local/src/refmportable_$VERSION.tar.gz
+mkdir -p /etc/skel/Desktop
+cat >/etc/skel/Desktop/refmportable.desktop <<EOF
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ruby 2.1 Reference Manual
+Name[ja]=Ruby 2.1 リファレンスマニュアル
+Comment=Reference Manual of Ruby 2.1
+Comment[ja]=Ruby 2.1 のリファレンスマニュアルを開きます
+Exec=/opt/refmportable_$VERSION/refmportable.sh
+Type=Application
+Icon=accessories-dictionary
+EOF
+chmod +x /etc/skel/Desktop/refmportable.desktop
+cat >/opt/refmportable_$VERSION/refmportable.sh <<'EOF'
+#!/bin/sh
+cd "$(dirname "$0")"
+./nw ./html
+EOF
