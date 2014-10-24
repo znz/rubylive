@@ -1,10 +1,10 @@
 ---
 # http://ruby.morphball.net/refm-remix.html
 # node-webkit + refm
-- url: http://ruby.morphball.net/temp/refmportable_20140821.tar.gz
-  size: 36924698
-  sha256sum: 22659ee6a7a657779e5658ec83a91407c1888eb88ea1df1f65f9ecbcbf602842
-  path: config/includes.chroot/usr/local/src/refmportable_20140821.tar.gz
+- url: http://ruby.morphball.net/temp/refmportable_20141019.tar.gz
+  size: 36921258
+  sha256sum: 2bc9e4f8411a30596fcd342ffa94d1e046c2ed2a1ba59dd4fb868c9a0adbd886
+  path: config/includes.chroot/usr/local/src/refmportable_20141019.tar.gz
 
 # This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
 - url: http://rubykaigi.org/2014/images/rubykaigi2014-mark.svg

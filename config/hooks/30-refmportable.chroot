@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=20140821
+VERSION=20141019
 set -e
 cd /opt
 tar xzvf /usr/local/src/refmportable_$VERSION.tar.gz
