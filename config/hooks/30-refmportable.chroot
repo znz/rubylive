@@ -17,8 +17,3 @@ Type=Application
 Icon=accessories-dictionary
 EOF
 chmod +x /etc/skel/Desktop/refmportable.desktop
-cat >/opt/refmportable_$VERSION/refmportable.sh <<'EOF'
-#!/bin/sh
-cd "$(dirname "$0")"
-./nw ./html
-EOF
