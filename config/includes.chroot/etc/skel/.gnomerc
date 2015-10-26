@@ -1,4 +1,4 @@
-gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/images/desktop-base/rubykaigi2014-mark.svg'
+gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/images/desktop-base/rubykaigi.png'
 gsettings set org.gnome.desktop.background picture-options centered
 gsettings set org.gnome.desktop.background show-desktop-icons true
 gsettings set org.gnome.desktop.screensaver idle-activation-enabled false

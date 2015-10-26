@@ -1,5 +1,4 @@
 Ruby リファレンスマニュアルは [ruby-list:49987] のものを同梱しています。
 
 
-壁紙の RubyKaigi 2014 のロゴは http://rubykaigi.org/2014/ からダウンロードして使用していて CC BY 3.0 でライセンスされています。
-ライセンスの詳細は http://creativecommons.org/licenses/by/3.0/ を参照してください。
+壁紙の関西Ruby会議06のロゴは http://regional.rubykaigi.org/kansai06/assets/img/rubykaigi.png からダウンロードして使用しています。

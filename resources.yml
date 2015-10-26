@@ -6,8 +6,8 @@
   sha256sum: 2bc9e4f8411a30596fcd342ffa94d1e046c2ed2a1ba59dd4fb868c9a0adbd886
   path: config/includes.chroot/usr/local/src/refmportable_20141019.tar.gz
 
-# This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
-- url: http://rubykaigi.org/2014/images/rubykaigi2014-mark.svg
-  size: 40577
-  sha256sum: 937dd0adc13e1bfdfada604d93559de5438c9659ba99f335d98986d3893f317e
-  path: config/includes.chroot/usr/share/images/desktop-base/rubykaigi2014-mark.svg
+# Logo of Kansai RubyKaigi 06
+- url: http://regional.rubykaigi.org/kansai06/assets/img/rubykaigi.png
+  size: 23153
+  sha256sum: 1ce2a69cc8434101128ddba54b90f38743793778da0322f903a20e41d1e97bd7
+  path: config/includes.chroot/usr/share/images/desktop-base/rubykaigi.png

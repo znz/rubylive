@@ -14,9 +14,8 @@ RubyLive という Debian GNU/Linux ベースの LiveCD を作るために使用
 ## RubyLive でのカスタマイズポイント
 
 - 壁紙の変更
-  - RubyKaigi 2014 のロゴを使用している
-  - http://rubykaigi.org/2014
-  - This work by RubyKaigi 2014 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+  - 関西Ruby会議06のロゴを使用している
+  - http://regional.rubykaigi.org/kansai06/
 - デスクトップにワークショップで使用するアイコンが置いてある
 - デスクトップに[Rubyリファレンスマニュアル chm版リミックス](http://ruby.morphball.net/refm-remix.html)が置いてある
 
